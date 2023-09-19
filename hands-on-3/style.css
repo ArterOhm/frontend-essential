@@ -1,10 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;300;400;700&display=swap');
+body{
+  font-family: 'Kanit', sans-serif;
+}
+.Layout{
+  padding: 0 120px;
+  display: block;
+}
 * {
   margin: 0;
 }
 .Nvidia-header {
   width: 100%;
   height: 44px;
-  padding: 0 40px;
+  padding: 0 100px;
   background-color: white;
   box-sizing: border-box;
   display: flex;
@@ -24,33 +32,58 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 10px;
+  gap: 20px;
+}
+.manu1 p {
+  color: #666;
+  padding: 4px 5px 0;  
+  font-size: 16px;
+  font-weight: 300;
+}
+.manu1 p:hover {
+  color: black;
 }
 .manu2 {
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 10px;
+  gap: 20px;
 }
+.manu2 p {
+  color: #666;
+  padding: 4px 5px 0;
+  font-size: 16px;
+  font-weight: 300;
+}
+.manu2 p:hover {
+  color: black;
+}
+
 .Nvidia-img {
-  width: 110px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding: 0 20px;
 }
 .Profile-img {
-  width: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding: 0 20px;
 }
 
 .navbar-fixed-top {
   width: 100%;
+  font-size: 22px;
+  font-weight: 100;
   height: 56px;
-  padding: 0 40px;
+  padding: 0 38px;
   background-color: white;
   box-sizing: border-box;
   display: flex;
   top: 44px;
   justify-content: space-between;
-
+  padding: 0 80px;
   background-color: #080808;
   border-color: #080808;
 }
@@ -59,14 +92,16 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 22px;
+  font-weight: 300;
   color: white;
-  padding: 0 30px;
+  padding: 0 40px;
 }
 section {
   display: flex;
   flex-direction: column;
   padding: 30px 0;
-  font-weight: 700;
+
 }
 section div h1 {
   display: flex;
@@ -107,6 +142,11 @@ section div h1 {
   padding: 10px;
   font-size: 19px;
   text-align: center;
+  text-decoration-line: none;
+}
+.P-box-1 a{
+  text-decoration-line: none;
+  color: black;
 }
 .link-box-1 {
   display: flex;
@@ -114,6 +154,9 @@ section div h1 {
   align-items: center;
 }
 .link-box-1 a {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
   padding: 10px;
   font-size: 14px;
   text-align: center;
@@ -124,7 +167,12 @@ section div h1 {
 .link-box-1 a:hover {
   color: green;
 }
+
 header {
   position: sticky;
   top: 0;
+}
+
+.box-1-1:hover {
+  box-shadow: 0 0 10px 5px rgb(0 0 0/0.2);
 }
