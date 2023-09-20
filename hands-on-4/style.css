@@ -14,11 +14,15 @@ body{
   
 }
 .Nvidia-header {
-  width: auto;
-  height: 44px;
+
   padding: 0 60px;
   background-color: white;
-  box-sizing: border-box;
+  display: flex;
+}
+.manu-all {
+  width: 100%;
+  height: 44px;
+  background-color: white;
   display: flex;
   justify-content: space-between;
 }
@@ -180,8 +184,9 @@ header {
   box-shadow: 0 0 10px 5px rgb(0 0 0/0.2);
 }
 .hamburger-icon{
-  display: flex;
+  display: none;
   position: relative;
+  
 }
 
 
@@ -200,7 +205,29 @@ header {
   .main-box-1 {
     display: grid;
     grid-template-columns: 1fr ;
+  }
+  .hamburger-icon{
+    display: flex;
+  }
+  .manu1 {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
 
+  .manu2 {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  .logo-Use {
+    width: 100%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
   }
   
 }
