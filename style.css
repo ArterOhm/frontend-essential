@@ -34,15 +34,19 @@ li {
 }
 .Milestones-container {
   display: flex;
-  gap: 15px;
-  margin: 30px;
+  flex-direction: row;
+
+  gap: 30px;
+  margin: 30px auto;
+  padding: 0 30px;
+  max-width: 1080px;
+
 }
 
 .Milestones-card {
   background-color: whitesmoke;
   box-shadow: 0 0 5px 5px rgb(0 0 0/0.1);
-  width: 500px;
-  height: auto;
+  width: 100%;
   padding: 10px;
 }
 .submit {
@@ -55,4 +59,15 @@ li {
 
 a:hover {
   color: red;
+}
+
+@media (max-width:763px ){
+  .Milestones-container{
+    flex-direction: column;
+    gap: 20px;
+  }
+  .Milestones-card {
+    width: 100%;
+    box-sizing: border-box;
+  }
 }
