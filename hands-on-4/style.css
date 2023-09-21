@@ -1,20 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;300;400;700&display=swap');
-body{
-  font-family: 'Kanit', sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@100;300;400;700&display=swap");
+body {
+  font-family: "Kanit", sans-serif;
   width: 100%;
 }
 
-.Layout{
+.Layout {
   width: auto;
   padding: 0 60px;
   display: block;
 }
 * {
   margin: 0;
-  
 }
 .Nvidia-header {
-
   padding: 0 60px;
   background-color: white;
   display: flex;
@@ -44,7 +42,7 @@ body{
 }
 .manu1 p {
   color: #666;
-  padding: 4px 5px 0;  
+  padding: 4px 5px 0;
   font-size: 14px;
   font-weight: 300;
 }
@@ -59,7 +57,7 @@ body{
 }
 .manu2 p {
   color: #666;
-  padding: 4px 5px 0;  
+  padding: 4px 5px 0;
   font-size: 14px;
   font-weight: 300;
 }
@@ -108,7 +106,6 @@ section {
   display: flex;
   flex-direction: column;
   padding: 30px 0;
-
 }
 section div h1 {
   display: flex;
@@ -151,7 +148,7 @@ section div h1 {
   text-align: center;
   text-decoration-line: none;
 }
-.P-box-1 a{
+.P-box-1 a {
   text-decoration-line: none;
   color: black;
 }
@@ -175,7 +172,7 @@ section div h1 {
   color: green;
 }
 
-header {  
+header {
   position: sticky;
   top: 0;
 }
@@ -183,31 +180,29 @@ header {
 .box-1-1:hover {
   box-shadow: 0 0 10px 5px rgb(0 0 0/0.2);
 }
-.hamburger-icon{
+.hamburger-icon {
   display: none;
   position: relative;
-  
 }
 
-
-
-
-@media (max-width:1080px){
+@media (max-width: 1080px) {
   .main-box-1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-
   }
 }
 
-@media (max-width:748px){
+@media (max-width: 748px) {
   .main-box-1 {
     display: grid;
-    grid-template-columns: 1fr ;
+    grid-template-columns: 1fr;
   }
-  .hamburger-icon{
+  .hamburger-icon {
     display: flex;
+  }
+  .Layout {
+    min-width: 400px;
   }
   .manu1 {
     display: none;
@@ -229,5 +224,4 @@ header {
     align-items: center;
     padding: 0 20px;
   }
-  
 }

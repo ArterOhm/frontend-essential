@@ -40,7 +40,6 @@ li {
   margin: 30px auto;
   padding: 0 30px;
   max-width: 1080px;
-
 }
 
 .Milestones-card {
@@ -61,8 +60,8 @@ a:hover {
   color: red;
 }
 
-@media (max-width:763px ){
-  .Milestones-container{
+@media (max-width: 763px) {
+  .Milestones-container {
     flex-direction: column;
     gap: 20px;
   }

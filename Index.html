@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
   </head>
   <body>
     <nav>
@@ -19,7 +20,7 @@
       <!-- Frontend Milestones -->
       <div class="Milestones-card">
         <h2 class="Milestones">Frontend Milestones</h2>
-        <ol>
+        <ol id="Frontend-Milestone">
           <li>JavaScript</li>
           <li>HTML</li>
           <li>CSS</li>
@@ -31,7 +32,7 @@
       <!-- Backend Milestones -->
       <div class="Milestones-card">
         <h2 class="Milestones">Backend Milestones</h2>
-        <ol>
+        <ol id="Backend-Milestone">
           <li>Node.js</li>
           <li>Express</li>
           <li>Database</li>
@@ -45,17 +46,17 @@
     <div>
       <p>From</p>
       <from>
-        <label for="username">Username:</label>
-        <input type="text" id="username" required />
+        <label for="frontend">Add Front-end Milestone:</label>
+        <input type="text" id="frontend" />
+        <button id="add-front">Submit</button>
+      </form>
+      <br />
+      <br />
 
-        <label for="email">Email:</label>
-        <input type="email" id="email" required />
-
-        <label for="password">Password:</label>
-        <input type="password" id="password" required />
-
-        <input class="submit" type="button" value="Login" />
-        <!-- <button type="submit">Login</button> -->
+      <form>
+        <label for="backend">Add Back-end Milestone:</label>
+        <input type="text" id="backend" />
+        <button id="add-back">Submit</button>
       </from>
     </div>
   </body>
